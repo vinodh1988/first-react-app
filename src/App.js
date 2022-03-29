@@ -5,11 +5,11 @@ import Square from './Square'
    return(
         <div>
                <h1>First component</h1>
-               <Square/>
-               <Square/>
-               <Square/>
-               <Square/>
-               <Square/>
+               <Square title="Vegetables"/>
+               <Square title="Fruits"/>
+               <Square title="Spices"/>
+               <Square title="Electronics"/>
+               <Square title="Cosmetics"/>
         </div>
    )
  }
