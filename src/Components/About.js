@@ -1,5 +1,7 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
+import Details from "./Details"
+
 import FeedbackBox from "./FeedbackBox"
 import FeedbackForm from "./FeedbackForm"
 
@@ -19,6 +21,7 @@ const About=()=>{
     )
 
     const [feedbacks,setFeedbacks]=useState([])
+   
     return(
         <div style={{overflow: "hidden",padding: "10px"}}>
            
@@ -32,6 +35,10 @@ const About=()=>{
 <p>
 The design, written content, and visual or video elements together tell an important story about who you are and why you do it.
 </p>         </div>
+
+<Details></Details>
+
+
 
    <h3 style={{color: "darkblue ", marginTop:"25px"}}>Feedbacks</h3>
    {
